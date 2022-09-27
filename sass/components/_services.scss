@@ -1,0 +1,73 @@
+.services {
+  height: 850px;
+  width: 100%;
+  position: relative;
+  pointer-events: none;
+  &__container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    max-height: 5000em;
+    pointer-events: none;
+  }
+  &__heading-1 {
+    position: absolute;
+    top: 60px;
+    left: 410px;
+    width: 575px;
+    height: 25px;
+    &--text {
+      @include first-header-black;
+      color: $black;
+    }
+  }
+  &__heading-2 {
+    position: absolute;
+    top: 100px;
+    left: 530px;
+    width: 465px;
+    height: 70px;
+    &--text {
+      @include second-header-black;
+      color: $black;
+    }
+  }
+  &__grid {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  &__service {
+    @include navigation;
+    text-align: center;
+    position: absolute;
+    color: $white;
+    border: 0;
+    padding-top: 10px;
+    background: $black;
+    width: 249px;
+    height: 40px;
+    top: 480px;
+    left: 65px;
+  }
+}
+
+.grid {
+  &__element {
+    position: relative;
+  }
+  &__link {
+    pointer-events: auto;
+  }
+}
+
+.button__services--inside-black {
+  background: $black;
+  color: $white;
+}

@@ -1,0 +1,33 @@
+.button {
+  &__services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 249px;
+    height: 40px;
+    &--inside {
+      @include navigation;
+      text-align: center;
+      position: absolute;
+      color: $black;
+      border: 0;
+      padding-top: 10px;
+      background: $white;
+      width: 249px;
+      height: 40px;
+      left: 500px;
+      top: 500px;
+      pointer-events: auto;
+    }
+    &--inside-black {
+      left: 500px;
+      top: 450px;
+    }
+  }
+  &__book {
+    top: 380px;
+    color: $white;
+    background-color: transparent;
+    border: 1px solid $white;
+  }
+}

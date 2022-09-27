@@ -1,0 +1,67 @@
+.book {
+  height: 538px;
+  width: 100%;
+  position: relative;
+  pointer-events: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  &__container {
+    background-color: $white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  &__background {
+    opacity: 1;
+    height: 697px;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &__parts {
+    height: 697px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    max-height: 5000em;
+    pointer-events: none;
+  }
+  &__heading-1 {
+    position: absolute;
+    width: 654px;
+    height: 125px;
+    top: 265px;
+    left: 280px;
+    &--text {
+      @include second-header-white;
+      text-align: center;
+    }
+  }
+  &__heading-2 {
+    position: absolute;
+    width: 654px;
+    height: 125px;
+    top: 220px;
+    left: 280px;
+    &--text {
+      @include first-header-white;
+      text-align: center;
+    }
+  }
+}
+
+.image--banner {
+  display: block;
+  position: absolute;
+}

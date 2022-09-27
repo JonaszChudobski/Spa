@@ -1,0 +1,68 @@
+$general-background: rgba(241,238,232,1);
+$white: rgba(255,255,255,1);
+$black: rgba(0,0,0,1);
+$clear-button-background: rgba(0,0,0,0);
+$clear-button-border: rgba(255,255,255,1);
+$reviews-background: rgba(255,227,223,1);
+
+@mixin navigation {
+    font-family: "Pavanam";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.8;
+    color: $black;
+    font-size: 12px;
+    letter-spacing: 0.3em;
+}
+
+@mixin first-header-white {
+    font-family: "Pathway Gothic One";
+    font-weight: 400px;
+    font-style: normal;
+    line-height: 1.2;
+    color: $white;
+    font-size: 24px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+@mixin second-header-white {
+    font-family: "Italiana";
+    font-weight: 400px;
+    font-style: normal;
+    line-height: 1.2;
+    color: $white;
+    font-size: 54px;
+    letter-spacing: 0em;
+}
+
+@mixin first-header-black {
+    font-family: "Pathway Gothic One";
+    font-weight: 400px;
+    font-style: normal;
+    line-height: 1.2;
+    color: $black;
+    font-size: 24px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+@mixin second-header-black {
+    font-family: "Italiana";
+    font-weight: 400px;
+    font-style: normal;
+    line-height: 1.2;
+    color: $black;
+    font-size: 54px;
+    letter-spacing: 0em;
+}
+
+@mixin paragraph {
+     font-family: "Pavanam";
+    font-weight: 400px;
+    font-style: normal;
+    line-height: 1.8;
+    color: $black;
+    font-size: 14px;
+    letter-spacing: 0em;
+}

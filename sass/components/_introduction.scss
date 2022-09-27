@@ -1,0 +1,70 @@
+.introduction {
+  height: 550px;
+  width: 100%;
+  position: relative;
+  pointer-events: none;
+  &__container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    max-height: 5000em;
+    pointer-events: none;
+  }
+  &__description {
+    width: 472px;
+    height: 215px;
+    position: absolute;
+    top: 160px;
+    left: 500px;
+    &--inside {
+      @include paragraph;
+    }
+  }
+  &__images {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 410px;
+    height: 100%;
+    background-image: url(/images/relax-g18bfde8ac_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &__border {
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    background-color: $black;
+    width: 100px;
+    height: 2px;
+    border-style: solid;
+  }
+  &__heading-1 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 219px;
+    height: 25px;
+    &--text {
+      @include first-header-black;
+      color: $black;
+    }
+  }
+  &__heading-2 {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 465px;
+    height: 70px;
+    &--text {
+      @include second-header-black;
+      color: $black;
+    }
+  }
+}
+
+.button__services--inside-black {
+  background: $black;
+  color: $white;
+}
