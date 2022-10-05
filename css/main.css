@@ -66,6 +66,7 @@ div {
   overflow: hidden;
   width: 1263px;
   position: relative;
+  background-color: rgb(241, 238, 232);
 }
 
 .navigation {
@@ -166,6 +167,28 @@ div {
   height: 19px;
   pointer-events: auto;
   outline: none;
+}
+.link--book {
+  position: absolute;
+  left: 1001px;
+  top: 36px;
+  width: 126px;
+  height: 39px;
+  pointer-events: auto;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.--book {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .banner {
@@ -425,6 +448,7 @@ div {
   width: 100%;
   position: relative;
   pointer-events: none;
+  background-color: rgb(255, 255, 255);
 }
 .services__container {
   width: 100%;
@@ -531,6 +555,8 @@ div {
   margin: 0 auto;
   max-height: 5000em;
   pointer-events: none;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(255, 255, 255)), color-stop(50%, rgb(255, 227, 223)));
+  background: linear-gradient(to bottom, rgb(255, 255, 255) 0 50%, rgb(255, 227, 223) 50% 100%);
 }
 .reviews__description {
   width: 472px;
@@ -606,4 +632,67 @@ div {
 .button__services--inside-black {
   background: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+}
+
+.information {
+  width: 100%;
+  height: 300px;
+}
+.information__container {
+  position: relative;
+}
+.information__hours-socials {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+.information__find-contact {
+  position: absolute;
+  top: 20px;
+  left: 976px;
+}
+.information__days {
+  font-family: "Pavanam";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.8;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  letter-spacing: 0.3em;
+}
+.information__days--link {
+  text-decoration: underline;
+  color: inherit;
+}
+.information__days--link:hover, .information__days--link:focus {
+  color: rgb(255, 227, 223);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+.information__logo {
+  position: absolute;
+  top: 10px;
+  left: 600px;
+  border: 1px solid black;
+  padding: 20px;
+}
+.information__border {
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.heading--information {
+  margin-bottom: 10px;
+}
+
+.text--information-left {
+  margin-bottom: 10px;
+}
+
+.text--information-right {
+  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */

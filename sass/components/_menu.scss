@@ -91,4 +91,19 @@
     pointer-events: auto;
     outline: none;
   }
+  &--book {
+    position: absolute;
+    left: 1001px;
+    top: 36px;
+    width: 126px;
+    height: 39px;
+    pointer-events: auto;
+    outline: none;
+    border: 1px solid $black;
+  }
+}
+.--book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
