@@ -66,3 +66,12 @@ $reviews-background: rgba(255,227,223,1);
     font-size: 14px;
     letter-spacing: 0em;
 }
+
+@mixin logo-paragraph {
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Italiana';
+    font-weight: 400;
+    font-style: normal;
+}

@@ -10,11 +10,7 @@
     margin: 0 auto;
     max-height: 5000em;
     pointer-events: none;
-    background: linear-gradient(
-      to bottom,
-      $white 0 50%,
-      $reviews-background 50% 100%
-    );
+    background: linear-gradient(to bottom, $white 20%, $general-background);
   }
   &__description {
     width: 472px;

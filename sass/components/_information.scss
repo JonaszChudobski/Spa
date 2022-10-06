@@ -34,11 +34,41 @@
     border: 1px solid black;
     padding: 20px;
   }
+  &__paragraph {
+    @include logo-paragraph;
+    position: absolute;
+    left: 244px;
+    top: 50px;
+    width: 300px;
+  }
   &__border {
     position: absolute;
-    top: 250px;
+    top: 240px;
     width: 100%;
     border-bottom: 1px solid $black;
+  }
+  &__menu {
+    position: absolute;
+    top: 242px;
+    width: 100%;
+    padding-right: 40px;
+  }
+  &__list {
+    @include navigation;
+    font-size: 16px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__element {
+    &:hover,
+    &:focus {
+      color: $reviews-background;
+      transition-duration: 0.5s;
+      transition-property: color;
+    }
   }
 }
 .heading--information {

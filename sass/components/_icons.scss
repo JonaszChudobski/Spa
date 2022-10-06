@@ -1,0 +1,14 @@
+.icon__social {
+  position: absolute;
+  &--facebook {
+    top: 160px;
+  }
+  &--instagram {
+    top: 160px;
+    left: 59px;
+  }
+  &--email {
+    top: 157px;
+    left: 120px;
+  }
+}
