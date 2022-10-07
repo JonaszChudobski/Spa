@@ -1,0 +1,28 @@
+.sub-services {
+  &__background {
+    position: absolute;
+    top: 250px;
+    width: 700px;
+    height: 320px;
+    z-index: 1;
+    background-color: $black;
+  }
+  &__booking .button__services--inside {
+    left: 40px;
+    background-color: transparent;
+    color: $white;
+    border: 1px solid $white;
+    z-index: 2;
+  }
+  &__heading-1 {
+    left: 40px;
+    z-index: 2;
+    &--text {
+      text-align: left;
+    }
+  }
+  &__heading-2 {
+    left: -130px;
+    z-index: 2;
+  }
+}

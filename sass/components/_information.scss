@@ -51,24 +51,14 @@
     position: absolute;
     top: 242px;
     width: 100%;
-    padding-right: 40px;
   }
-  &__list {
-    @include navigation;
-    font-size: 16px;
-    list-style: none;
+  &__menu-container {
+    height: 60px;
+    padding: 0 40px 0 40px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-  }
-  &__element {
-    &:hover,
-    &:focus {
-      color: $reviews-background;
-      transition-duration: 0.5s;
-      transition-property: color;
-    }
+    align-items: center;
   }
 }
 .heading--information {

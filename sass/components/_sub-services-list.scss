@@ -1,0 +1,16 @@
+.sub-services {
+  &__services-menu {
+    left: 450px;
+  }
+  &__kinds-of {
+    position: absolute;
+    width: 100%;
+    top: 140px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__kinds-of-services {
+    @include first-header-black;
+    font-size: 18px;
+  }
+}
