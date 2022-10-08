@@ -794,12 +794,16 @@ div {
   z-index: 2;
 }
 
+.sub-services__services {
+  height: 800px;
+}
 .sub-services__services-menu {
   left: 450px;
 }
 .sub-services__kinds-of {
   position: absolute;
   width: 100%;
+  padding: 0 80px;
   top: 140px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -818,4 +822,82 @@ div {
   letter-spacing: 0.3em;
   text-transform: uppercase;
   font-size: 18px;
+}
+.sub-services__kinds-of-services:hover, .sub-services__kinds-of-services:focus {
+  color: rgb(255, 227, 223);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+.sub-services__kinds-of-link {
+  pointer-events: auto;
+}
+.sub-services__borders-vertical {
+  height: 30px;
+  border-left: 1px solid rgb(0, 0, 0);
+}
+.sub-services__grid {
+  position: absolute;
+  top: 200px;
+  padding: 0 40px;
+  width: 100%;
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.sub-services__each-service {
+  position: relative;
+  height: 100px;
+}
+.sub-services__service-name {
+  font-family: "Pathway Gothic One";
+  font-weight: 400px;
+  font-style: normal;
+  line-height: 1.2;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-transform: none;
+  letter-spacing: 0;
+  position: absolute;
+  top: 10px;
+}
+.sub-services__service-description {
+  font-family: "Pavanam";
+  font-weight: 400px;
+  font-style: normal;
+  line-height: 1.8;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  letter-spacing: 0em;
+  width: 50%;
+  line-height: 1.5;
+  position: absolute;
+  top: 40px;
+}
+.sub-services__service-price {
+  font-family: "Pavanam";
+  font-weight: 400px;
+  font-style: normal;
+  line-height: 1.8;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  letter-spacing: 0em;
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  left: 1060px;
+}
+.sub-services__border {
+  position: absolute;
+  top: 90px;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
