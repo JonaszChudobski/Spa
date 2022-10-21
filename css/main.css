@@ -157,7 +157,7 @@ div {
   height: 89px;
   top: 11px;
   left: 473px;
-  border: 1px solid black;
+  pointer-events: auto;
 }
 .link--home {
   position: absolute;
@@ -188,7 +188,7 @@ div {
 }
 .link--blog {
   position: absolute;
-  left: 734px;
+  left: 854px;
   top: 46px;
   width: 90px;
   height: 19px;
@@ -197,7 +197,7 @@ div {
 }
 .link--contact {
   position: absolute;
-  left: 851px;
+  left: 971px;
   top: 46px;
   width: 126px;
   height: 19px;
@@ -206,7 +206,7 @@ div {
 }
 .link--book {
   position: absolute;
-  left: 1001px;
+  left: 1121px;
   top: 36px;
   width: 126px;
   height: 39px;
@@ -225,6 +225,12 @@ div {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.image--logo {
+  position: absolute;
+  top: -105px;
+  left: 20px;
 }
 
 .banner {
@@ -711,7 +717,6 @@ div {
   position: absolute;
   top: 10px;
   left: 600px;
-  border: 1px solid black;
   padding: 20px;
 }
 .information__paragraph {
@@ -765,6 +770,12 @@ div {
 
 .text--information-right {
   margin-bottom: 30px;
+}
+
+.logo--information {
+  position: absolute;
+  top: -110px;
+  left: -106px;
 }
 
 .sub-services__background {

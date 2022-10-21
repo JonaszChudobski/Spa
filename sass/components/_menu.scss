@@ -54,7 +54,7 @@
     height: 89px;
     top: 11px;
     left: 473px;
-    border: 1px solid black;
+    pointer-events: auto;
   }
   &--home {
     position: absolute;
@@ -85,7 +85,7 @@
   }
   &--blog {
     position: absolute;
-    left: 734px;
+    left: 854px;
     top: 46px;
     width: 90px;
     height: 19px;
@@ -94,7 +94,7 @@
   }
   &--contact {
     position: absolute;
-    left: 851px;
+    left: 971px;
     top: 46px;
     width: 126px;
     height: 19px;
@@ -103,7 +103,7 @@
   }
   &--book {
     position: absolute;
-    left: 1001px;
+    left: 1121px;
     top: 36px;
     width: 126px;
     height: 39px;
@@ -116,4 +116,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.image {
+  &--logo {
+    position: absolute;
+    top: -105px;
+    left: 20px;
+  }
 }

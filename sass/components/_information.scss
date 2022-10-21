@@ -31,7 +31,6 @@
     position: absolute;
     top: 10px;
     left: 600px;
-    border: 1px solid black;
     padding: 20px;
   }
   &__paragraph {
@@ -69,4 +68,11 @@
 }
 .text--information-right {
   margin-bottom: 30px;
+}
+.logo {
+  &--information {
+    position: absolute;
+    top: -110px;
+    left: -106px;
+  }
 }
