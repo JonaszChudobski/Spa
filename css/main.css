@@ -87,6 +87,10 @@ div {
   background-color: transparent;
   border: 1px solid rgb(255, 255, 255);
 }
+.button__sub-about--services {
+  left: 40px;
+  top: 450px;
+}
 
 .navigation {
   height: 110px;
@@ -937,10 +941,93 @@ div {
   text-align: left;
   color: rgb(0, 0, 0);
 }
+.sub-about__heading-1--introduction {
+  left: 40px;
+}
 .sub-about__heading-2 {
   left: 430px;
   z-index: 2;
 }
 .sub-about__heading-2--text {
   color: rgb(0, 0, 0);
+}
+.sub-about__heading-2--introduction {
+  left: 40px;
+}
+.sub-about__description {
+  left: 40px;
+}
+.sub-about__images--introduction {
+  left: 800px;
+}
+.sub-about__border--introduction {
+  left: 40px;
+}
+.sub-about__grid {
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+}
+.sub-about__grid-element {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sub-about__image {
+  border-radius: 50%;
+}
+.sub-about__position {
+  font-family: "Pavanam";
+  font-weight: 400px;
+  font-style: normal;
+  line-height: 1.8;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  letter-spacing: 0em;
+  margin: 20px 0 10px 0;
+}
+.sub-about__name {
+  font-family: "Pathway Gothic One";
+  font-weight: 400px;
+  font-style: normal;
+  line-height: 1.2;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-size: 26px;
+  text-transform: none;
+  margin-bottom: 20px;
+}
+.sub-about__paragraph {
+  font-family: "Pavanam";
+  font-weight: 400px;
+  font-style: normal;
+  line-height: 1.8;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  letter-spacing: 0em;
+  line-height: 1.4;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sub-about__social {
+  pointer-events: auto;
 }/*# sourceMappingURL=main.css.map */

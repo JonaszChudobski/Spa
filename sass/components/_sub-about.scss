@@ -22,6 +22,9 @@
       text-align: left;
       color: $black;
     }
+    &--introduction {
+      left: 40px;
+    }
   }
   &__heading-2 {
     left: 430px;
@@ -29,5 +32,52 @@
     &--text {
       color: $black;
     }
+    &--introduction {
+      left: 40px;
+    }
+  }
+  &__description {
+    left: 40px;
+  }
+  &__images--introduction {
+    left: 800px;
+  }
+  &__border--introduction {
+    left: 40px;
+  }
+  &__grid {
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+    &-element {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  &__image {
+    border-radius: 50%;
+  }
+  &__position {
+    @include paragraph;
+    margin: 20px 0 10px 0;
+  }
+  &__name {
+    @include first-header-black;
+    font-size: 26px;
+    text-transform: none;
+    margin-bottom: 20px;
+  }
+  &__paragraph {
+    @include paragraph;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__social {
+    pointer-events: auto;
   }
 }

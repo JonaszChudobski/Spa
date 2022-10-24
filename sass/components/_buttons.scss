@@ -30,4 +30,10 @@
     background-color: transparent;
     border: 1px solid $white;
   }
+  &__sub-about {
+    &--services {
+      left: 40px;
+      top: 450px;
+    }
+  }
 }
