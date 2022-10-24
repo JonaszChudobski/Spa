@@ -1,0 +1,33 @@
+.sub-about {
+  &__background {
+    position: absolute;
+    top: 250px;
+    right: 0;
+    width: 700px;
+    height: 320px;
+    z-index: 1;
+    background-color: $white;
+  }
+  &__booking .button__services--inside {
+    left: 600px;
+    background-color: transparent;
+    color: $black;
+    border: 1px solid $black;
+    z-index: 2;
+  }
+  &__heading-1 {
+    left: 600px;
+    z-index: 2;
+    &--text {
+      text-align: left;
+      color: $black;
+    }
+  }
+  &__heading-2 {
+    left: 430px;
+    z-index: 2;
+    &--text {
+      color: $black;
+    }
+  }
+}
