@@ -1,0 +1,10 @@
+.sub-contact {
+  &__contact-us {
+    &--inside {
+      top: 450px;
+      left: 40px;
+      background-color: $general-background;
+      box-shadow: 1px 1px 4px black;
+    }
+  }
+}

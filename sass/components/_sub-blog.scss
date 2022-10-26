@@ -1,0 +1,21 @@
+.sub-blog {
+  &__border {
+    left: 580px;
+  }
+  &__heading-2 {
+    top: 30px;
+    left: 510px;
+  }
+  &__grid {
+    justify-content: space-around;
+  }
+  &__image {
+    border-radius: 0px;
+  }
+  &__link {
+    left: 20px;
+  }
+  &__title {
+    margin-top: 20px;
+  }
+}

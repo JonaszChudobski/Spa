@@ -1030,4 +1030,33 @@ div {
 }
 .sub-about__social {
   pointer-events: auto;
+}
+
+.sub-blog__border {
+  left: 580px;
+}
+.sub-blog__heading-2 {
+  top: 30px;
+  left: 510px;
+}
+.sub-blog__grid {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.sub-blog__image {
+  border-radius: 0px;
+}
+.sub-blog__link {
+  left: 20px;
+}
+.sub-blog__title {
+  margin-top: 20px;
+}
+
+.sub-contact__contact-us--inside {
+  top: 450px;
+  left: 40px;
+  background-color: rgb(241, 238, 232);
+  -webkit-box-shadow: 1px 1px 4px black;
+          box-shadow: 1px 1px 4px black;
 }/*# sourceMappingURL=main.css.map */
