@@ -88,9 +88,44 @@
             <div class="reviews__heading-2">
                 <p class="reviews__heading-2--text">Contact us</p>
             </div>
-            <a href="" class="button__services sub-contact__contact-us">
+            <button type="button" class="button__services sub-contact__contact-us">
                 <p class="button__services--inside sub-contact__contact-us--inside">ENQUIRY FORM</p>
-            </a>
+            </button>
+            <div class="reviews__contact-form is-hidden">
+                <div class="contact-form__icon">
+                    <button class="contact-form__icon--button" type="button">
+                        <svg width="14" height="14">
+                            <use href="./images/icons.svg#icon-cross"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="contact-form__container">
+                    <div class="contact-form__form">
+                        <form name="contact-form" autocomplete="on" novalidate>
+                            <label for="name">Full name:</label>
+                            <input type="text" id="name">
+                            <label for="location">Where are you located?</label>
+                            <input type="text" id="location">
+
+                            <label for="email">Your email addres</label>
+                            <input type="email" id="email">
+
+                            <label for="phone">Your phone number</label>
+                            <input type="phone" id="phone">
+
+                            <label for="prefer">How would you prefer we contact you?</label>
+                            <input type="text" id="prefer" placeholder="Email, Phone call">
+
+                            <label for="hear">How did you hear about us?</label>
+                            <input type="text" id="hear" placeholder="Instagram, Facebook, Friend, Google">
+                            <label for="tell-more">Tell me more about your goals and what we can help you with
+                                <textarea name="tell-more" rows="6" placeholder="Goals go right here, girl!"></textarea>
+                            </label>
+                            <button class="contact-form__button" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="information">
             <div class="information__container">
