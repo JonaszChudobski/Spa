@@ -354,7 +354,7 @@ div {
   left: 0;
   width: 410px;
   height: 100%;
-  background-image: url(../images/relax-g18bfde8ac_1280.jpg);
+  background-image: url(../images/stronaglowna2-czuloscspa.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -525,8 +525,8 @@ div {
 .services__heading-2 {
   position: absolute;
   top: 100px;
-  left: 530px;
-  width: 465px;
+  left: 490px;
+  width: auto;
   height: 70px;
 }
 .services__heading-2--text {
@@ -571,7 +571,7 @@ div {
   padding-top: 10px;
   background: rgb(0, 0, 0);
   width: 249px;
-  height: 40px;
+  height: 62px;
   top: 480px;
   left: 65px;
 }
@@ -626,7 +626,7 @@ div {
   left: 680px;
   width: 610px;
   height: 100%;
-  background-image: url(../images/woman-g2f939835f_1920.jpg);
+  background-image: url(../images/zadowolony-klient-czuloscspa.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }

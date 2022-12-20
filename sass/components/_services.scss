@@ -26,8 +26,8 @@
   &__heading-2 {
     position: absolute;
     top: 100px;
-    left: 530px;
-    width: 465px;
+    left: 490px;
+    width: auto;
     height: 70px;
     &--text {
       @include second-header-black;
@@ -53,7 +53,7 @@
     padding-top: 10px;
     background: $black;
     width: 249px;
-    height: 40px;
+    height: 62px;
     top: 480px;
     left: 65px;
   }
