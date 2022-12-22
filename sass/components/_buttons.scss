@@ -15,7 +15,7 @@
       background: $white;
       width: 249px;
       height: 40px;
-      left: 500px;
+      left: 510px;
       top: 500px;
       pointer-events: auto;
     }
@@ -25,7 +25,9 @@
     }
   }
   &__book {
+    width: 300px;
     top: 380px;
+    left: 480px;
     color: $white;
     background-color: transparent;
     border: 1px solid $white;

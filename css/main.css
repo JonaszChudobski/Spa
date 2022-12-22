@@ -22,6 +22,7 @@ div {
 }
 
 .container {
+  margin: 0 auto;
   min-width: 320px;
   overflow: hidden;
   width: 1263px;
@@ -73,7 +74,7 @@ div {
   background: rgb(255, 255, 255);
   width: 249px;
   height: 40px;
-  left: 500px;
+  left: 510px;
   top: 500px;
   pointer-events: auto;
 }
@@ -82,7 +83,9 @@ div {
   top: 450px;
 }
 .button__book {
+  width: 300px;
   top: 380px;
+  left: 480px;
   color: rgb(255, 255, 255);
   background-color: transparent;
   border: 1px solid rgb(255, 255, 255);
@@ -163,18 +166,9 @@ div {
   left: 473px;
   pointer-events: auto;
 }
-.link--home {
-  position: absolute;
-  left: 28px;
-  top: 46px;
-  width: 103px;
-  height: 19px;
-  pointer-events: auto;
-  outline: none;
-}
 .link--services {
   position: absolute;
-  left: 171px;
+  left: 20px;
   top: 46px;
   width: 125px;
   height: 19px;
@@ -183,7 +177,7 @@ div {
 }
 .link--about {
   position: absolute;
-  left: 324px;
+  left: 250px;
   top: 46px;
   width: 111px;
   height: 19px;
@@ -192,7 +186,7 @@ div {
 }
 .link--blog {
   position: absolute;
-  left: 854px;
+  left: 400px;
   top: 46px;
   width: 90px;
   height: 19px;
@@ -201,7 +195,7 @@ div {
 }
 .link--contact {
   position: absolute;
-  left: 971px;
+  left: 820px;
   top: 46px;
   width: 126px;
   height: 19px;
@@ -210,9 +204,9 @@ div {
 }
 .link--book {
   position: absolute;
-  left: 1121px;
+  left: 1010px;
   top: 36px;
-  width: 126px;
+  width: 236px;
   height: 39px;
   pointer-events: auto;
   outline: none;
@@ -282,11 +276,11 @@ div {
   width: 654px;
   height: 125px;
   top: 325px;
-  left: 305px;
+  left: 300px;
 }
 .banner__heading-1--text {
-  font-family: "Italiana";
-  font-weight: 400px;
+  font-family: "Belleza";
+  font-weight: 400;
   font-style: normal;
   line-height: 1.2;
   color: rgb(255, 255, 255);
@@ -302,8 +296,8 @@ div {
   left: 305px;
 }
 .banner__heading-2--text {
-  font-family: "Pathway Gothic One";
-  font-weight: 400px;
+  font-family: "Oswald";
+  font-weight: 400;
   font-style: normal;
   line-height: 1.2;
   color: rgb(255, 255, 255);
@@ -341,7 +335,7 @@ div {
 }
 .introduction__description--inside {
   font-family: "Pavanam";
-  font-weight: 400px;
+  font-weight: 400;
   font-style: normal;
   line-height: 1.8;
   color: rgb(0, 0, 0);
@@ -350,7 +344,7 @@ div {
 }
 .introduction__images {
   position: absolute;
-  top: 150px;
+  top: 180px;
   left: 0;
   width: 410px;
   height: 100%;
@@ -360,7 +354,7 @@ div {
 }
 .introduction__border {
   position: absolute;
-  top: 110px;
+  top: 150px;
   left: 20px;
   background-color: rgb(0, 0, 0);
   width: 100px;
@@ -369,14 +363,14 @@ div {
 }
 .introduction__heading-1 {
   position: absolute;
-  top: 10px;
+  top: 30px;
   left: 20px;
   width: 219px;
   height: 25px;
 }
 .introduction__heading-1--text {
-  font-family: "Pathway Gothic One";
-  font-weight: 400px;
+  font-family: "Oswald";
+  font-weight: 400;
   font-style: normal;
   line-height: 1.2;
   color: rgb(0, 0, 0);
@@ -387,14 +381,14 @@ div {
 }
 .introduction__heading-2 {
   position: absolute;
-  top: 30px;
+  top: 70px;
   left: 20px;
   width: 465px;
   height: 70px;
 }
 .introduction__heading-2--text {
-  font-family: "Italiana";
-  font-weight: 400px;
+  font-family: "Belleza";
+  font-weight: 400;
   font-style: normal;
   line-height: 1.2;
   color: rgb(0, 0, 0);
@@ -453,11 +447,11 @@ div {
   width: 654px;
   height: 125px;
   top: 265px;
-  left: 280px;
+  left: 302px;
 }
 .book__heading-1--text {
-  font-family: "Italiana";
-  font-weight: 400px;
+  font-family: "Belleza";
+  font-weight: 400;
   font-style: normal;
   line-height: 1.2;
   color: rgb(255, 255, 255);
@@ -470,11 +464,11 @@ div {
   width: 654px;
   height: 125px;
   top: 220px;
-  left: 280px;
+  left: 306px;
 }
 .book__heading-2--text {
-  font-family: "Pathway Gothic One";
-  font-weight: 400px;
+  font-family: "Oswald";
+  font-weight: 400;
   font-style: normal;
   line-height: 1.2;
   color: rgb(255, 255, 255);
@@ -507,13 +501,13 @@ div {
 .services__heading-1 {
   position: absolute;
   top: 60px;
-  left: 410px;
+  left: 420px;
   width: 575px;
   height: 25px;
 }
 .services__heading-1--text {
-  font-family: "Pathway Gothic One";
-  font-weight: 400px;
+  font-family: "Oswald";
+  font-weight: 400;
   font-style: normal;
   line-height: 1.2;
   color: rgb(0, 0, 0);
@@ -525,13 +519,13 @@ div {
 .services__heading-2 {
   position: absolute;
   top: 100px;
-  left: 490px;
+  left: 492px;
   width: auto;
   height: 70px;
 }
 .services__heading-2--text {
-  font-family: "Italiana";
-  font-weight: 400px;
+  font-family: "Belleza";
+  font-weight: 400;
   font-style: normal;
   line-height: 1.2;
   color: rgb(0, 0, 0);
@@ -542,7 +536,7 @@ div {
 .services__grid {
   position: absolute;
   top: 200px;
-  left: 30px;
+  left: 98px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -573,7 +567,7 @@ div {
   width: 249px;
   height: 62px;
   top: 480px;
-  left: 65px;
+  left: 42px;
 }
 
 .grid__element {
@@ -608,12 +602,12 @@ div {
   width: 472px;
   height: 215px;
   position: absolute;
-  top: 160px;
+  top: 220px;
   left: 40px;
 }
 .reviews__description--inside {
   font-family: "Pavanam";
-  font-weight: 400px;
+  font-weight: 400;
   font-style: normal;
   line-height: 1.8;
   color: rgb(0, 0, 0);
@@ -632,7 +626,7 @@ div {
 }
 .reviews__border {
   position: absolute;
-  top: 110px;
+  top: 190px;
   left: 40px;
   background-color: rgb(0, 0, 0);
   width: 100px;
@@ -641,14 +635,14 @@ div {
 }
 .reviews__heading-1 {
   position: absolute;
-  top: 10px;
+  top: 0px;
   left: 40px;
-  width: 290px;
+  width: 390px;
   height: 25px;
 }
 .reviews__heading-1--text {
-  font-family: "Pathway Gothic One";
-  font-weight: 400px;
+  font-family: "Oswald";
+  font-weight: 400;
   font-style: normal;
   line-height: 1.2;
   color: rgb(0, 0, 0);
@@ -659,14 +653,14 @@ div {
 }
 .reviews__heading-2 {
   position: absolute;
-  top: 30px;
+  top: 40px;
   left: 40px;
   width: 465px;
   height: 70px;
 }
 .reviews__heading-2--text {
-  font-family: "Italiana";
-  font-weight: 400px;
+  font-family: "Belleza";
+  font-weight: 400;
   font-style: normal;
   line-height: 1.2;
   color: rgb(0, 0, 0);
@@ -719,20 +713,20 @@ div {
 }
 .information__logo {
   position: absolute;
-  top: 10px;
-  left: 600px;
+  top: 30px;
+  left: 572px;
   padding: 20px;
 }
 .information__paragraph {
   line-height: 1.5;
   font-size: 16px;
   text-align: center;
-  font-family: "Italiana";
+  font-family: "Belleza";
   font-weight: 400;
   font-style: normal;
   position: absolute;
-  left: 244px;
-  top: 50px;
+  left: 232px;
+  top: 70px;
   width: 300px;
 }
 .information__border {
@@ -805,8 +799,28 @@ div {
   text-align: left;
 }
 .sub-services__heading-2 {
-  left: -130px;
+  left: -236px;
   z-index: 2;
+}
+.sub-services__services-menu {
+  position: relative;
+  top: 30px;
+}
+.sub-services__services-menu--text {
+  position: absolute;
+  left: 45px;
+}
+.sub-services__click {
+  font-family: "Pavanam";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.8;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  letter-spacing: 0em;
+  height: 40px;
+  width: 100%;
+  text-align: center;
 }
 
 .sub-services__services {
@@ -828,8 +842,8 @@ div {
           justify-content: space-between;
 }
 .sub-services__kinds-of-services {
-  font-family: "Pathway Gothic One";
-  font-weight: 400px;
+  font-family: "Oswald";
+  font-weight: 400;
   font-style: normal;
   line-height: 1.2;
   color: rgb(0, 0, 0);
@@ -871,8 +885,8 @@ div {
   height: 100px;
 }
 .sub-services__service-name {
-  font-family: "Pathway Gothic One";
-  font-weight: 400px;
+  font-family: "Oswald";
+  font-weight: 400;
   font-style: normal;
   line-height: 1.2;
   color: rgb(0, 0, 0);
@@ -887,7 +901,7 @@ div {
 }
 .sub-services__service-description {
   font-family: "Pavanam";
-  font-weight: 400px;
+  font-weight: 400;
   font-style: normal;
   line-height: 1.8;
   color: rgb(0, 0, 0);
@@ -900,7 +914,7 @@ div {
 }
 .sub-services__service-price {
   font-family: "Pavanam";
-  font-weight: 400px;
+  font-weight: 400;
   font-style: normal;
   line-height: 1.8;
   color: rgb(0, 0, 0);
@@ -927,6 +941,7 @@ div {
   background-color: rgb(255, 255, 255);
 }
 .sub-about__booking .button__services--inside {
+  top: 480px;
   left: 600px;
   background-color: transparent;
   color: rgb(0, 0, 0);
@@ -934,27 +949,34 @@ div {
   z-index: 2;
 }
 .sub-about__heading-1 {
+  position: relative;
   left: 600px;
   z-index: 2;
 }
 .sub-about__heading-1--text {
-  text-align: left;
+  position: absolute;
+  left: 0px;
   color: rgb(0, 0, 0);
 }
 .sub-about__heading-1--introduction {
   left: 40px;
 }
 .sub-about__heading-2 {
+  position: relative;
   left: 430px;
   z-index: 2;
 }
 .sub-about__heading-2--text {
+  position: absolute;
+  top: -140px;
+  left: 176px;
   color: rgb(0, 0, 0);
 }
 .sub-about__heading-2--introduction {
-  left: 40px;
+  left: 38px;
 }
 .sub-about__description {
+  top: 200px;
   left: 40px;
 }
 .sub-about__images--introduction {
@@ -965,6 +987,7 @@ div {
 }
 .sub-about__grid {
   left: 0;
+  top: 230px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -995,7 +1018,7 @@ div {
 }
 .sub-about__position {
   font-family: "Pavanam";
-  font-weight: 400px;
+  font-weight: 400;
   font-style: normal;
   line-height: 1.8;
   color: rgb(0, 0, 0);
@@ -1004,8 +1027,8 @@ div {
   margin: 20px 0 10px 0;
 }
 .sub-about__name {
-  font-family: "Pathway Gothic One";
-  font-weight: 400px;
+  font-family: "Oswald";
+  font-weight: 400;
   font-style: normal;
   line-height: 1.2;
   color: rgb(0, 0, 0);
@@ -1018,7 +1041,7 @@ div {
 }
 .sub-about__paragraph {
   font-family: "Pavanam";
-  font-weight: 400px;
+  font-weight: 400;
   font-style: normal;
   line-height: 1.8;
   color: rgb(0, 0, 0);
@@ -1030,6 +1053,10 @@ div {
 }
 .sub-about__social {
   pointer-events: auto;
+}
+.sub-about__team {
+  position: absolute;
+  left: 350px;
 }
 
 .sub-blog__border {
@@ -1053,12 +1080,16 @@ div {
   margin-top: 20px;
 }
 
+.sub-contact__contact-us {
+  padding-top: 4px;
+}
 .sub-contact__contact-us--inside {
   top: 450px;
   left: 40px;
   background-color: rgb(241, 238, 232);
   -webkit-box-shadow: 1px 1px 4px black;
           box-shadow: 1px 1px 4px black;
+  cursor: pointer;
 }
 
 .reviews__contact-form {
@@ -1081,7 +1112,7 @@ div {
 }
 .contact-form__form > form {
   font-family: "Pavanam";
-  font-weight: 400px;
+  font-weight: 400;
   font-style: normal;
   line-height: 1.8;
   color: rgb(0, 0, 0);
@@ -1098,8 +1129,8 @@ div {
   gap: 6px;
 }
 .contact-form__button {
-  font-family: "Pathway Gothic One";
-  font-weight: 400px;
+  font-family: "Oswald";
+  font-weight: 400;
   font-style: normal;
   line-height: 1.2;
   color: rgb(255, 255, 255);

@@ -16,8 +16,8 @@ $reviews-background: rgba(255,227,223,1);
 }
 
 @mixin first-header-white {
-    font-family: "Pathway Gothic One";
-    font-weight: 400px;
+    font-family: "Oswald";
+    font-weight: 400;
     font-style: normal;
     line-height: 1.2;
     color: $white;
@@ -27,8 +27,8 @@ $reviews-background: rgba(255,227,223,1);
 }
 
 @mixin second-header-white {
-    font-family: "Italiana";
-    font-weight: 400px;
+    font-family: "Belleza";
+    font-weight: 400;
     font-style: normal;
     line-height: 1.2;
     color: $white;
@@ -37,8 +37,8 @@ $reviews-background: rgba(255,227,223,1);
 }
 
 @mixin first-header-black {
-    font-family: "Pathway Gothic One";
-    font-weight: 400px;
+    font-family: "Oswald";
+    font-weight: 400;
     font-style: normal;
     line-height: 1.2;
     color: $black;
@@ -48,8 +48,8 @@ $reviews-background: rgba(255,227,223,1);
 }
 
 @mixin second-header-black {
-    font-family: "Italiana";
-    font-weight: 400px;
+    font-family: "Belleza";
+    font-weight: 400;
     font-style: normal;
     line-height: 1.2;
     color: $black;
@@ -59,7 +59,7 @@ $reviews-background: rgba(255,227,223,1);
 
 @mixin paragraph {
      font-family: "Pavanam";
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
     line-height: 1.8;
     color: $black;
@@ -71,7 +71,7 @@ $reviews-background: rgba(255,227,223,1);
     line-height: 1.5;
     font-size: 16px;
     text-align: center;
-    font-family: 'Italiana';
+    font-family: 'Belleza';
     font-weight: 400;
     font-style: normal;
 }

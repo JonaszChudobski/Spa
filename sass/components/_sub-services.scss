@@ -22,7 +22,21 @@
     }
   }
   &__heading-2 {
-    left: -130px;
+    left: -236px;
     z-index: 2;
+  }
+  &__services-menu {
+    position: relative;
+    top: 30px;
+    &--text {
+      position: absolute;
+      left: 45px;
+    }
+  }
+  &__click {
+    @include paragraph;
+    height: 40px;
+    width: 100%;
+    text-align: center;
   }
 }

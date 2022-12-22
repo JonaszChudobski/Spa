@@ -11,7 +11,7 @@
     <link href="css/main.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Pathway+Gothic+One&family=Pavanam&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Oswald&family=Pavanam&display=swap"
         rel="stylesheet" />
 </head>
 
@@ -20,25 +20,22 @@
         <div class="navigation">
             <div class="navigation--bg">
                 <div class="navigation__buttons">
-                    <a href="/index.html" class="link--logo"><img class="image--logo" src="./images/logo.png"
+                    <a href="./index.html" class="link--logo"><img class="image--logo" src="./images/czulosc4.png"
                             width="300" height="300" /></a>
-                    <a href="/index.html" class="link--home">
-                        <p class="navigation__link">HOME</p>
-                    </a>
                     <a href="./services.html" class="link--services">
-                        <p class="navigation__link">SERVICES</p>
+                        <p class="navigation__link">CENNIK USŁUG</p>
                     </a>
                     <a href="./about.html" class="link--about">
-                        <p class="navigation__link">ABOUT</p>
+                        <p class="navigation__link">O NAS</p>
                     </a>
                     <a href="./blog.html" class="link--blog">
-                        <p class="navigation__link">BLOG</p>
+                        <p class="navigation__link">MASAŻE</p>
                     </a>
-                    <a href="#/" class="link--contact">
-                        <p class="navigation__link">CONTACT</p>
+                    <a href="./contact.html" class="link--contact">
+                        <p class="navigation__link">KONTAKT</p>
                     </a>
-                    <a href="" class="link--book">
-                        <p class="navigation__link --book">BOOK NOW</p>
+                    <a href="https://czuloscspa.booksy.com" class="link--book" target="_blank">
+                        <p class="navigation__link --book">ZAREZERWUJ WIZYTĘ</p>
                     </a>
                 </div>
             </div>
@@ -88,12 +85,13 @@
             <div class="reviews__heading-2">
                 <p class="reviews__heading-2--text">Contact us</p>
             </div>
-            <button type="button" class="button__services sub-contact__contact-us">
-                <p class="button__services--inside sub-contact__contact-us--inside">ENQUIRY FORM</p>
+            <button id="enquiry" type="button"
+                class="button__services button__services--inside sub-contact__contact-us sub-contact__contact-us--inside">FORMULARZ
+                KONTAKTOWY
             </button>
             <div class="reviews__contact-form is-hidden">
                 <div class="contact-form__icon">
-                    <button class="contact-form__icon--button" type="button">
+                    <button id="close" class="contact-form__icon--button" type="button">
                         <svg width="14" height="14">
                             <use href="./images/icons.svg#icon-cross"></use>
                         </svg>
@@ -132,16 +130,16 @@
                 <div class="information__hours-socials">
                     <div class="information__hours">
                         <p class="reviews__heading-1--text heading--information">
-                            SALON HOURS
+                            GODZINY OTWARCIA SPA
                         </p>
                         <p class="information__days text--information-left">
-                            MONDAY - FRIDAY: 10 AM - 8 PM<br />SATURDAY: 9 AM - 6 PM<br />SUNDAY:
-                            CLOSED
+                            PONIEDZIAŁEK - PIĄTEK: 10:00 - 20:00<br />SOBOTA: 9:00 - 18:00<br />NIEDZIELA:
+                            NIECZYNNE
                         </p>
                     </div>
                     <div class="information__socials">
                         <p class="reviews__heading-1--text heading--information">
-                            GET SOCIAL
+                            OBSERWUJ NAS
                         </p>
                         <a href="https://facebook.com">
                             <svg class="icon__social icon__social--facebook" width="20" height="20">
@@ -163,18 +161,18 @@
                 <div class="information__find-contact">
                     <div class="information__find-us">
                         <p class="reviews__heading-1--text heading--information">
-                            FIND US AT
+                            ADRES
                         </p>
                         <p class="information__days text--information-right">
-                            66 PERRY ST. NEW YOURK, NY<br />10014, UNITED STATES
+                            MATEJKI 1/2<br />60-766 POZNAŃ
                         </p>
                     </div>
                     <div class="information__contact-us">
                         <p class="reviews__heading-1--text heading--information">
-                            CONTACT US
+                            KONTAKT
                         </p>
                         <p class="information__days">
-                            PH:
+                            TEL.:
                             <a class="information__days--link" href="tel:+48000000000">+48 000 000 000</a>
                         </p>
                         <p class="information__days">
@@ -184,22 +182,18 @@
                     </div>
                 </div>
                 <div class="information__logo">
-                    <a href="/index.html" class="information__logo--link"><img class="logo--information"
-                            src="./images/logo.png" width="300" height="300" /></a>
+                    <a href="#/" class="information__logo--link"><img class="logo--information"
+                            src="./images/czulosc4.png" width="300" height="300" /></a>
                 </div>
                 <div class="information__paragraph">
                     <p class="information__paragraph">
-                        A cute information about your site and company to inspire those
-                        who aren't inspired enough yet.
+                        Wyjątkowa przestrzeń dla ciała i duszy w Poznaniu
                     </p>
                 </div>
                 <div class="information__border"></div>
                 <div class="information__menu">
                     <div class="information__menu-container">
-                        <a href="/index.html">
-                            <p class="navigation__link--down">HOME</p>
-                        </a>
-                        <a href="#/">
+                        <a href="./services.html">
                             <p class="navigation__link--down">SERVICES</p>
                         </a>
                         <a href="./about.html">
@@ -219,6 +213,7 @@
             </div>
         </div>
     </div>
+    <script src="./js/contact-us.js"></script>
 </body>
 
 </html>

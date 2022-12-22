@@ -9,6 +9,7 @@
     background-color: $white;
   }
   &__booking .button__services--inside {
+    top: 480px;
     left: 600px;
     background-color: transparent;
     color: $black;
@@ -16,10 +17,12 @@
     z-index: 2;
   }
   &__heading-1 {
+    position: relative;
     left: 600px;
     z-index: 2;
     &--text {
-      text-align: left;
+      position: absolute;
+      left: 0px;
       color: $black;
     }
     &--introduction {
@@ -27,16 +30,21 @@
     }
   }
   &__heading-2 {
+    position: relative;
     left: 430px;
     z-index: 2;
     &--text {
+      position: absolute;
+      top: -140px;
+      left: 176px;
       color: $black;
     }
     &--introduction {
-      left: 40px;
+      left: 38px;
     }
   }
   &__description {
+    top: 200px;
     left: 40px;
   }
   &__images--introduction {
@@ -47,6 +55,7 @@
   }
   &__grid {
     left: 0;
+    top: 230px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -79,5 +88,9 @@
   }
   &__social {
     pointer-events: auto;
+  }
+  &__team {
+    position: absolute;
+    left: 350px;
   }
 }

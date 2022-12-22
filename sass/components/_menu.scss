@@ -56,18 +56,18 @@
     left: 473px;
     pointer-events: auto;
   }
-  &--home {
-    position: absolute;
-    left: 28px;
-    top: 46px;
-    width: 103px;
-    height: 19px;
-    pointer-events: auto;
-    outline: none;
-  }
+  // &--home {
+  //   position: absolute;
+  //   left: 28px;
+  //   top: 46px;
+  //   width: 103px;
+  //   height: 19px;
+  //   pointer-events: auto;
+  //   outline: none;
+  // }
   &--services {
     position: absolute;
-    left: 171px;
+    left: 20px;
     top: 46px;
     width: 125px;
     height: 19px;
@@ -76,7 +76,7 @@
   }
   &--about {
     position: absolute;
-    left: 324px;
+    left: 250px;
     top: 46px;
     width: 111px;
     height: 19px;
@@ -85,7 +85,7 @@
   }
   &--blog {
     position: absolute;
-    left: 854px;
+    left: 400px;
     top: 46px;
     width: 90px;
     height: 19px;
@@ -94,7 +94,7 @@
   }
   &--contact {
     position: absolute;
-    left: 971px;
+    left: 820px;
     top: 46px;
     width: 126px;
     height: 19px;
@@ -103,9 +103,9 @@
   }
   &--book {
     position: absolute;
-    left: 1121px;
+    left: 1010px;
     top: 36px;
-    width: 126px;
+    width: 236px;
     height: 39px;
     pointer-events: auto;
     outline: none;

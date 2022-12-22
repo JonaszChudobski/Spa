@@ -29,15 +29,15 @@
   }
   &__logo {
     position: absolute;
-    top: 10px;
-    left: 600px;
+    top: 30px;
+    left: 572px;
     padding: 20px;
   }
   &__paragraph {
     @include logo-paragraph;
     position: absolute;
-    left: 244px;
-    top: 50px;
+    left: 232px;
+    top: 70px;
     width: 300px;
   }
   &__border {
